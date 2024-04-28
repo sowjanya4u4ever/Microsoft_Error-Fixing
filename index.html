@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNT Health Center</title>
+    <style>
+        body {
+            background-color: #00FF00; /* Green background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .doctors {
+            font-weight: bold;
+        }
+        nav a {
+            color: white; /* Improved contrast */
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>UNT Health Center</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Doctors</a> |
+            <a href="#">Department</a> |
+            <a href="#">Contact</a> |
+            <a href="#">Sign In</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Renowned Doctors</h2>
+        <div class="doctors">
+            <p>Doctor 1: Dr. Joseph Livingston (Cardiologist)</p>
+            <p>Doctor 2: Dr. Jane Smith (Gynecologist)</p>
+            <p>Doctor 3: Diana Joseph (Orthodontics)</p>
+        </div>
+        <p>Our team of skilled doctors is committed to providing exceptional healthcare services. Dr. Joseph Livingston specializes in cardiology, Dr. Jane Smith is an expert in gynecology, and Diana Joseph is a renowned orthodontist.</p>
+        <p>We prioritize patient well-being and offer personalized care for all your medical needs.</p>
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please feel free to reach out:</p>
+        <ul>
+            <li>Email: <a href="mailto:info@unthealthcenter.com">info@unthealthcenter.com</a></li>
+            <li>Phone: +1 (123) 456-7890</li>
+        </ul>
+        <h2>Appointment Request</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Request Appointment</button>
+        </form>
+    </div>
+    <footer>
+        © 2024 UNT Health Center. All rights reserved.
+    </footer>
+</body>
+</html>
